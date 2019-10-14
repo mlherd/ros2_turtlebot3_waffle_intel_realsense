@@ -14,3 +14,9 @@ Gazebo Model for Turtlebot 3 Waffle robot with Intel RealSense Camera with ROS2 
 
 - realsense_depth_frame
 - raelsense_rgb_frame
+
+## Turtlebot 3 with RealSense in Turlebot World in Gazebo
+![gz_realsense.png](https://raw.githubusercontent.com/mlherd/ros2_turtlebot3_waffle_intel_realsense/master/pics/gz_realsense.png)
+
+## Point Cloud view in Rviz
+![gz_realsense.png](https://raw.githubusercontent.com/mlherd/ros2_turtlebot3_waffle_intel_realsense/master/pics/rviz_point_cloud.png)
