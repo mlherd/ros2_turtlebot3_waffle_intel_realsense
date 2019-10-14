@@ -7,14 +7,15 @@ Gazebo model for Turtlebot 3 Waffle robot with Intel RealSense Camera with ROS2 
 
 Tested using Gazebo 9 and ROS2 Dashing.
 
-# Published Topics
+# RealSense Camera Topic Names
 
-- /intel_realsense_r200_depth/camera_info_raw
-- /intel_realsense_r200_depth/depth/camera_info
-- /intel_realsense_r200_depth/points
-- /intel_realsense_r200_rgb/camera_info
-- /cmd_vel
-- /odom
+/intel_realsense_r200_depth/camera_info_raw
+/intel_realsense_r200_depth/depth/camera_info
+/intel_realsense_r200_depth/depth/image_raw
+/intel_realsense_r200_depth/image_raw
+/intel_realsense_r200_depth/points
+/intel_realsense_r200_rgb/camera_info
+/intel_realsense_r200_rgb/image_raw
 
 # Camera Frame Names: 
 
