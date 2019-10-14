@@ -7,6 +7,17 @@ Gazebo model for Turtlebot 3 Waffle robot with Intel RealSense Camera with ROS2 
 
 Tested using Gazebo 9 and ROS2 Dashing.
 
+# Requiremnets
+
+- [Install ROS2](https://index.ros.org/doc/ros2/Installation/Dashing/)
+- Install Gazebo
+    - ```curl -sSL http://get.gazebosim.org | sh```
+- Install Gazebo ROS2 Packages
+    - ```sudo apt install ros-dashing-gazebo_ros_pkgs-*```
+- Source setup.bash in the ROS2 installation directory
+    - ```source /opt/ros/dashing/setup.bash```  
+- Clone the repository and copy turtlebot3_waffle into ```.gazebo/models``` directory. It is located in the ```/home``` directory.
+
 # RealSense Camera Topic Names
 
 - /intel_realsense_r200_depth/camera_info_raw
