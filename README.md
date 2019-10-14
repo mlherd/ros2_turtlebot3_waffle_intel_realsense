@@ -21,7 +21,7 @@ Tested using Gazebo 9 and ROS2 Dashing.
 - realsense_depth_frame
 - raelsense_rgb_frame
 
-## Turtlebot 3 with RealSense in Turlebot World in Gazebo
+## Turtlebot 3 with Intel RealSense in Turlebot World in Gazebo
 ![gz_realsense.png](https://raw.githubusercontent.com/mlherd/ros2_turtlebot3_waffle_intel_realsense/master/pics/gz_realsense.png)
 
 ## Point Cloud view in Rviz
