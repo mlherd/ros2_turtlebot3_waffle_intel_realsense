@@ -13,9 +13,9 @@ Tested using Gazebo 9 and ROS2 Dashing.
 - Install Gazebo
     - ```curl -sSL http://get.gazebosim.org | sh```
 - Install Gazebo ROS2 Packages
-    - ```sudo apt install ros-dashing-gazebo_ros_pkgs-*```
+    - ```sudo apt install ros-<ros2_distro>-gazebo_ros_pkgs-*```
 - Source setup.bash in the ROS2 installation directory
-    - ```source /opt/ros/dashing/setup.bash```  
+    - ```source /opt/ros/<ros2_distro>/setup.bash```  
 - Clone the repository and copy turtlebot3_waffle into ```.gazebo/models``` directory. It is located in the ```/home``` directory.
 
 # RealSense Camera Topic Names
