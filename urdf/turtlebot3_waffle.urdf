@@ -261,9 +261,9 @@
   </link>
 
   <joint name="camera_rgb_joint" type="fixed">
-    <origin xyz="0.005 0.018 0.013" rpy="0 0 0"/>
+    <origin xyz="0.005 0.018 0.013" rpy="-1.57 0 -1.57"/>
     <!-- <origin xyz="${r200_cam_rgb_px} ${r200_cam_rgb_py} ${r200_cam_rgb_pz}" rpy="0 0 0"/> -->
-    <parent link="camera_link"/>
+    <parent link="realsense_link"/>
     <child link="camera_rgb_frame"/>
   </joint>
   <link name="camera_rgb_frame"/>
@@ -276,9 +276,9 @@
   <link name="camera_rgb_optical_frame"/>
 
   <joint name="realsense_depth_joint" type="fixed">
-    <origin xyz="0.005 0.028 0.013" rpy="0 0 0"/>
+    <origin xyz="0.005 0.028 0.013" rpy="-1.57 0 -1.57"/>
     <!-- <origin xyz="${r200_cam_rgb_px} ${r200_cam_rgb_py + r200_cam_depth_offset} ${r200_cam_rgb_pz}" rpy="0 0 0"/> -->
-    <parent link="camera_link"/>
+    <parent link="realsense_link"/>
     <child link="realsense_depth_frame"/>
   </joint>
   <link name="realsense_depth_frame"/>
