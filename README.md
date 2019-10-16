@@ -17,6 +17,7 @@ Tested using Gazebo 9 and ROS2 Dashing.
 - Source setup.bash in the ROS2 installation directory
     - ```source /opt/ros/<ros2_distro>/setup.bash```  
 - Clone the repository and copy turtlebot3_waffle into ```.gazebo/models``` directory. It is located in the ```/home``` directory.
+- Use the urdf with robot state publihser be replacing the description file in ```turtlebot3_description/urdf``` with this urdf file.
 
 # RealSense Camera Topic Names
 
@@ -32,6 +33,9 @@ Tested using Gazebo 9 and ROS2 Dashing.
 
 - realsense_depth_frame
 - raelsense_rgb_frame
+
+## Point Cloud, Tuurtlebot 3 Robot Model, and Map view in Rviz
+![gz_realsense.png](https://github.com/mlherd/ros2_turtlebot3_waffle_intel_realsense/blob/master/pics/rviz_map_point_cloud.png?raw=true)
 
 ## Turtlebot 3 with Intel RealSense in Turlebot World in Gazebo
 ![gz_realsense.png](https://raw.githubusercontent.com/mlherd/ros2_turtlebot3_waffle_intel_realsense/master/pics/gz_realsense.png)
