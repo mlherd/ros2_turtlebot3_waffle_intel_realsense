@@ -1,5 +1,5 @@
-# ros2_turtlebot3_waffle_intel_realsense
-Gazebo model for Turtlebot 3 Waffle robot with Intel RealSense Camera with ROS2 plugins.
+# Turtlebot3 Waffle Gazebo Model with Depth Camera Plugin
+This is the Gazebo ROS2 camera plugin enabled version of Turtlebot 3 Waffle Gazebo model.
 
 - RGB Image
 - Depth Image
@@ -7,17 +7,17 @@ Gazebo model for Turtlebot 3 Waffle robot with Intel RealSense Camera with ROS2 
 
 Tested using Gazebo 9 and ROS2 Dashing.
 
-# Requiremnets
+# Requirements
 
 - [Install ROS2](https://index.ros.org/doc/ros2/Installation/Dashing/)
 - Install Gazebo
     - ```curl -sSL http://get.gazebosim.org | sh```
 - Install Gazebo ROS2 Packages
-    - ```sudo apt install ros-<ros2_distro>-gazebo_ros_pkgs-*```
+    - ```sudo apt install ros-<ros2_distro>-gazebo-*```
 - Source setup.bash in the ROS2 installation directory
-    - ```source /opt/ros/<ros2_distro>/setup.bash```  
-- Clone the repository and copy turtlebot3_waffle into ```.gazebo/models``` directory. It is located in the ```/home``` directory.
-- Use the urdf with robot state publihser be replacing the description file in ```turtlebot3_description/urdf``` with this urdf file.
+    - ```source /opt/ros/<ros2_distro>/setup.bash```
+- Clone the repository and copy turtlebot3_waffle into ```.gazebo/models``` directory. It is located in the ```/home``` directory or where you store your model files such ```turtlebot3_simulation/turtlebot3_gazebo/models```
+- Use the urdf with robot state publihser or replace the description file in ```turtlebot3_description/urdf``` with this urdf file.
 
 # RealSense Camera Topic Names
 
